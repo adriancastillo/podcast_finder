@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          # Run build_runner once instead of automatically
+          runs_before:
+            - json_serializable
