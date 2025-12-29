@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import '../../../../core/theme/app_colors.dart';
-import '../../data/models/podcast_model.dart';
+import '../../../../../core/theme/app_colors.dart';
+import '../../../data/models/podcast_model.dart';
 
 class PodcastCard extends StatelessWidget {
   const PodcastCard({
